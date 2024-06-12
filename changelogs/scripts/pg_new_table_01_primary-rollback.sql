@@ -1,0 +1,1 @@
+ALTER TABLE ONLY pg_films_01 DROP CONSTRAINT pk_pg_films_01;

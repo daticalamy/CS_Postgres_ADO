@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - include:
+      file: changelogs/main.xml
+      relativeToChangelogFile: true
+      
+  - includeAll:
+      path: changelogs/logic
+      relativeToChangelogFile: true
+      errorIfMissingOrEmpty: false
+      
+  - includeAll:
+      path: changelogs/data
+      relativeToChangelogFile: true
+      errorIfMissingOrEmpty: false
+      

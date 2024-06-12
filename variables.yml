@@ -1,0 +1,9 @@
+variables:
+   Project.Name: LiquibasePro
+   Application.Name: App_ABC
+   Git.Repository: LiquibasePro
+   Agent.PoolName: CS
+   JFrog.EndPoint: 
+   JFrog.Repository: 
+   App.Version: $(Build.BuildId)
+   Source.Branch: $(Build.SourceBranchName)
